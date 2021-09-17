@@ -8,4 +8,5 @@ def searchBi(arr):
 
 numberElements = int(input("Enter number of elements in array : "))
 a = list(map(int,input("\nEnter the numbers : ").strip().split()))[:numberElements]
+#collects array
 searchBi(a)
